@@ -3,7 +3,7 @@
 ## Applied Computer Science
 ### Teacher: Edward Bieleninik
 
-**For you future students of applied computer science, so that you do not suffer like us**
+**For you future students of applied computer science, so that you will not suffer like us**
 
 
 # Subjects:
