@@ -12,7 +12,7 @@
  3. Lab3: Queues and Stacks `16/20`
  4. Lab4: Linked Lists `18/20`
  5. Lab5: Insertion Sort, Selection Sort, Bubble Sort `18/20`
- 6. Lab6: Insertion Sort, Selection Sort, Bubble Sort - Performance
- 7. Lab7: Merge Sort, Quick Sort, Heap Sort
- 8. Lab8: Heap Data Structure
+ 6. Lab6: Insertion Sort, Selection Sort, Bubble Sort - Performance `16/20`
+ 7. Lab7: Merge Sort, Quick Sort, Heap Sort `16/20`
+ 8. Lab8: Heap Data Structure `12/20`
  9. Lab9: Hashing Data Structure
