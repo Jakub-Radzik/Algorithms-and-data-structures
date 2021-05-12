@@ -17,7 +17,7 @@
  8. Lab8: Heap Data Structure `12/20`
  9. Lab9: Hashing Data Structure
  10. Lab10: Binary Search Tree
- 11. Lab11:
+ 11. Lab11: Red-Black Tree,  2-3-4 Tree
  12. Lab12:
  13. Lab13:
  14. Lab14:
