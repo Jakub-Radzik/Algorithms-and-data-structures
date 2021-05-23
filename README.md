@@ -15,10 +15,10 @@
  6. Lab6: Insertion Sort, Selection Sort, Bubble Sort - Performance `16/20`
  7. Lab7: Merge Sort, Quick Sort, Heap Sort `16/20`
  8. Lab8: Heap Data Structure `12/20`
- 9. Lab9: Hashing Data Structure
- 10. Lab10: Binary Search Tree
- 11. Lab11: Red-Black Tree,  2-3-4 Tree
- 12. Lab12:
+ 9. Lab9: Hashing Data Structure `xx/20`
+ 10. Lab10: Binary Search Tree `xx/20`
+ 11. Lab11: Red-Black Tree,  2-3-4 Tree `xx/20`
+ 12. Lab12: Disjoint sets, comparison of trees `xx/20`
  13. Lab13:
  14. Lab14:
  15. Lab15:
