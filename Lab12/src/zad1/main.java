@@ -1,5 +1,13 @@
 package zad1;
 
+import zad1.onArrays.ArrayDisjoint;
+import zad1.onArrays.ArrayDisjointSetsCompression;
+import zad1.onArrays.ArrayDisjointSetsNoCompression;
+import zad1.onTrees.ForestDisjointSetCompression;
+import zad1.onTrees.ForestDisjointSetStabilization;
+import zad1.onTrees.ForestDisjontSet;
+
+
 import java.util.ArrayList;
 
 public class main {
@@ -23,6 +31,10 @@ public class main {
         set2.union(4,5);
         set2.union(5,6);
         set2.union(6,7);// [0,1,2,3], [4,5,6,7], [8], [9]
+        System.out.println("SET1");
+        set1.displaySets();
+        System.out.println("SET2");
+        set2.displaySets();
 
         System.out.println("Reprezentant [Czas szukania w nano sekundach]");
         System.out.println("Kompresja ścieżek dokłada kodu więc wtedy czas jest dłuższy");
@@ -43,50 +55,18 @@ public class main {
 
         System.out.println("Sets on forest");
 
-        ForestDisjointTreesSets forest = new ForestDisjointTreesSets(10);
-        for (int i = 0; i < 10; i++) {
-            forest.makeSet(i);
+        ForestDisjontSet f1 = new ForestDisjointSetCompression(31);
+        ForestDisjontSet f2 = new ForestDisjointSetStabilization(31);
+
+        for (int i = 0; i < 30; i+=2) {
+            f1.union(i,i+1);
+            f2.union(i,i+1);
         }
 
-        for (int i = 0; i < 10; i+=2) {
-            forest.union(i, i+1);
-        }
-
-        displaySets(forest);
-        System.out.println("1<->2");
-        forest.union(1,2);
-        displaySets(forest);
-        System.out.println("2<->5");
-        forest.union(2,5);
-        displaySets(forest);
-        System.out.println("9<->6");
-        forest.union(9,6);
-        displaySets(forest);
-    }
-
-    public static void displaySets(ForestDisjointTreesSets forest){
-        ArrayList<ArrayList<Integer>> sets = new ArrayList<>();
-
-        for (int i = 0; i < 10; i++) {
-            sets.add(new ArrayList<>());
-        }
-
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                if(forest.findSet(j)==i){
-                    sets.get(i).add(j);
-                }
-            }
-        }
-
-        for (int i = 0; i < sets.size(); i++) {
-            if(sets.get(i).size()!=0){
-                System.out.print("[");
-                sets.get(i).stream().forEach(e -> System.out.print(e+ ", "));
-                System.out.print("]");
-            }
-        }
-        System.out.println();
+        System.out.println("KOMPRESOWANY SET");
+        f1.displaySets();
+        System.out.println("STABILIZOWANA WYSOKOSC SET");
+        f2.displaySets();
     }
 
 }
