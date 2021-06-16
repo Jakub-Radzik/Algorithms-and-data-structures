@@ -21,4 +21,4 @@
  12. Lab12: Disjoint sets, comparison of trees `12/20`
  13. Lab13: Graphs `xx/20`
  14. Lab14: Algorithms: Prim, Kruskal, Dijkstra `xx/20`
- 15. Lab15:
+ 15. Lab15: Huffman Coding `xx/20`
