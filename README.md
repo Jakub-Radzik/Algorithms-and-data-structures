@@ -20,5 +20,5 @@
  11. Lab11: Red-Black Tree,  2-3-4 Tree `12/20`
  12. Lab12: Disjoint sets, comparison of trees `12/20`
  13. Lab13: Graphs `xx/20`
- 14. Lab14: Algorithms: Prim, Kruskal, Dijkstra `UPDATE AFTER SATURDAY`
+ 14. Lab14: Algorithms: Prim, Kruskal, Dijkstra `xx/20`
  15. Lab15:
